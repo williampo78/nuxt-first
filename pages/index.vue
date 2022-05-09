@@ -9,7 +9,7 @@
       />
       <SmallCardDisplay
         v-for="cardInfo in smallCardSections"
-        :key="cardInfo.id"
+        :key="cardInfo.title"
         :cardsSection="cardInfo"
       />
     </div>

@@ -8,7 +8,7 @@
       />
       <SmallCardDisplay
         v-for="cardInfo in smallCardSections.slice(0, 1)"
-        :key="cardInfo.id"
+        :key="cardInfo.title"
         :cardsSection="cardInfo"
       />
     </div>
